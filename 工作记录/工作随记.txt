@@ -52,6 +52,7 @@ https://www.w3cschool.cn/weixinapp/weixinapp-media-picture.html
 --------------------
 git 提交
 
+git add *
 git commit -m '1111'
 git push
 输入帐号和密码
