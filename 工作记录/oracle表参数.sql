@@ -4,4 +4,6 @@ SELECT USER_TAB_COLS.TABLE_NAME as 表名,USER_TAB_COLS.COLUMN_NAME as 列名 ,
        user_col_comments.comments as 备注 FROM USER_TAB_COLS
          inner join user_col_comments
            on user_col_comments.TABLE_NAME=USER_TAB_COLS.TABLE_NAME and user_col_comments.COLUMN_NAME=USER_TAB_COLS.COLUMN_NAME
-where USER_TAB_COLS.TABLE_NAME='T_SCENE'
+where USER_TAB_COLS.TABLE_NAME='T_SCENE';
+
+select count(1) from v;
