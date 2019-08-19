@@ -1,0 +1,50 @@
+
+
+三菱 SXR-80
+sshpass -p 'Hbkfzhfw_2017' ssh wd@133.0.127.84
+sshpass -p 'Hbkfzhfw_2017' ssh tomcat@133.0.127.84
+x.0zuo.com
+http://133.0.176.204:9000/skf/main.do?NB_PG_CONVERT=NB_FORWARD&NB_TARGET=DataQryProcessorV6&NB_ACT=qryMainInfo&staffno=1234
+
+"/skf/main.do?NB_PG_CONVERT=NB_FORWARD&NB_TARGET=DataQryProcessorV9&NB_ACT=optBxl&&accNbr=18963971822&localnet=1001&staffno=1301&inserial=&incomeNbr=&commandCode=227519&bxlMsg=该号码可订购50元档位不限量国内升级包"
+ssh root@47.74.241.65
+sshpass -p 'Procedure77!' ssh -D 7001 root@ssl.gq.life
+sshpass -p 'Function77!' ssh -D 7001 root@47.74.241.65
+共享密钥我设的gq.life
+
+docker run -i -t -d -p 8888:8888 -v /Users/dongshengzhang/Downloads:/data/mnt f975 /bin/bash
+docker exec -it 5cbefdef46ba /bin/sh
+docker attach 5cbefdef46ba
+
+install -y bzip2
+
+docker start 5cbefdef46ba
+pip install virtualenv
+virtualenv venv
+cd /home
+source venv/bin/activate
+
+deactivate
+
+pip install jupyter
+
+python -c "import IPython;print IPython.lib.passwd()" 报错
+
+生成配置文件
+$ jupyter notebook –generate-config
+$ jupyter notebook password # 设置 jupyter 登录密码（也可以写入到配置文件中）
+
+
+nohup jupyter notebook > /data/jupyter/jupyter.log 2>&1 &
+
+nohup jupyter lab > /data/jupyter/jupyter.log 2>&1 &
+
+nohup java -Xms1024m -Xmx2048m -jar modelForCT-0.0.1-SNAPSHOT.jar --server.port=8000 > ~/logs.log 2>&1 &
+
+conda install conda-forge jupyter_contrib_nbextensions 
+nohup jupyter notebook > ~/jupyter.log 2>&1 &
+
+/usr/local/bin/redis-server /usr/local/redis/redis.conf
+
+
+https://www.w3cschool.cn/weixinapp/weixinapp-media-picture.html

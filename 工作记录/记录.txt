@@ -1,0 +1,240 @@
+192.168.50.31:8080/kfDeploy/gw/index?nbr=18007168155&inserial=1234567890&staffno=1301
+https://github.com/RubyLouvre/anu
+
+sshpass -p 'Hbkfzhfw_2017' ssh wd@133.0.127.84
+sshpass -p 'Hbkfzhfw_2017' ssh tomcat@133.0.127.84
+sshpass -p Hbkfzhfw_2017 ssh tomcat@133.0.124.53
+x.0zuo.com
+http://133.0.176.204:9000/skf/main.do?NB_PG_CONVERT=NB_FORWARD&NB_TARGET=DataQryProcessorV6&NB_ACT=qryMainInfo&staffno=1234
+
+"/skf/main.do?NB_PG_CONVERT=NB_FORWARD&NB_TARGET=DataQryProcessorV9&NB_ACT=optBxl&&accNbr=18963971822&localnet=1001&staffno=1301&inserial=&incomeNbr=&commandCode=227519&bxlMsg=该号码可订购50元档位不限量国内升级包"
+ssh root@47.74.241.65
+sshpass -p 'Procedure77!' ssh -D 7001 root@ssl.gq.life
+sshpass -p 'Function77!' ssh -D 7001 root@47.74.241.65
+共享密钥我设的gq.life
+
+docker run -i -t -d -p 8888:8888 -v /Users/dongshengzhang/Downloads:/data/mnt f975 /bin/bash
+docker exec -it 5cbefdef46ba /bin/sh
+docker attach 5cbefdef46ba
+docker start 容器id
+
+install -y bzip2
+
+docker start 5cbefdef46ba
+pip install virtualenv
+virtualenv venv
+cd /home
+source venv/bin/activate
+
+deactivate
+
+pip install jupyter
+
+python -c "import IPython;print IPython.lib.passwd()" 报错
+
+生成配置文件
+$ jupyter notebook –generate-config
+$ jupyter notebook password # 设置 jupyter 登录密码（也可以写入到配置文件中）
+
+
+nohup jupyter notebook > /data/jupyter/jupyter.log 2>&1 &
+
+nohup jupyter lab > /data/jupyter/jupyter.log 2>&1 &
+
+nohup java -Xms1024m -Xmx2048m -jar modelForCT-0.0.1-SNAPSHOT.jar --server.port=8000 > ~/logs.log 2>&1 &
+
+conda install conda-forge jupyter_contrib_nbextensions 
+nohup jupyter notebook > ~/jupyter.log 2>&1 &
+
+/usr/local/bin/redis-server /usr/local/redis/redis.conf
+
+	<!--通用视图解析器 -->
+	<bean id="viewResolverCommon"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/resources/views/" />
+		<property name="suffix" value=".ftl" />
+		<property name="viewClass" value="org.springframework.web.servlet.view.InternalResourceView" />
+		<property name="order" value="1" />
+	</bean>
+
+	<!-- 配置freeMarker视图解析器 -->
+	<bean id="viewResolverFtl"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" />
+		<property name="contentType" value="text/html;charset=utf-8" />
+		<property name="cache" value="true" />
+		<property name="suffix" value=".ftl" />
+		<property name="order" value="0" />
+		<property name="requestContextAttribute" value="rc" />
+	</bean>
+
+	<!-- 配置freeMarker的模板路径 -->
+	<bean id="freemarkerConfig"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<property name="templateLoaderPath" value="/resources/views/" />
+		<property name="freemarkerVariables">
+			<map>
+				<entry key="xml_escape" value-ref="fmXmlEscape" />
+			</map>
+		</property>
+		<property name="defaultEncoding" value="utf-8" />
+		<property name="freemarkerSettings">
+			<props>
+				<prop key="template_update_delay">0</prop>
+				<prop key="default_encoding">UTF-8</prop>
+				<prop key="locale">zh_CN</prop>
+				<prop key="number_format">0.##########</prop>
+				<prop key="datetime_format">yyyy-MM-dd HH:mm:ss</prop>
+				<prop key="classic_compatible">true</prop>
+				<prop key="template_exception_handler">ignore</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="fmXmlEscape" class="freemarker.template.utility.XmlEscape" />
+	<!-- <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+         使用前缀和后缀
+         <property name="prefix" value="/resources/views/"></property>
+         <property name="suffix" value=".ftl"></property>
+	</bean> -->
+	<!-- 配置FreeMark视图 -->
+	<!-- <bean id="freeMarkerViewResolver"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		<property name="contentType" value="text/html;charset=UTF-8" />
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" />
+		<property name="suffix" value=".ftl" />
+		<property name="cache" value="true" />
+		<property name="exposeSessionAttributes" value="true" />
+		<property name="exposeRequestAttributes" value="true" />
+		<property name="exposeSpringMacroHelpers" value="true" />
+		在页面中使用${rc.contextPath}就可获得contextPath
+		<property name="requestContextAttribute" value="rc" />
+		<property name="order" value="0" />
+	</bean>
+
+	<bean id="freemarkConfig"
+		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="location" value="classpath:/conf/freemark.properties" />
+	</bean>
+
+	<bean id="fmXmlEscape" class="freemarker.template.utility.XmlEscape" />
+
+	<bean id="FreeMarkerConfigurer"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<property name="templateLoaderPath" value="/resources/views/" />
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="freemarkerSettings" ref="freemarkConfig" />
+		<property name="freemarkerVariables">
+			<map>
+				<entry key="xml_escape" value-ref="fmXmlEscape" />
+			</map>
+		</property>
+	</bean> -->
+
+	<!-- freemarker begin -->
+	<!-- FreeMarker的配置 -->
+	<!-- <bean id="freeMarkerConfigurer"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<property name="templateLoaderPaths" value="classpath:/resources/views/ftl/" />
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="freemarkerSettings">
+			<props>
+				<prop key="template_update_delay">0</prop>
+				<prop key="defaultEncoding">UTF-8</prop>
+				<prop key="url_escaping_charset">UTF-8</prop>
+				<prop key="locale">zh_CN</prop>
+				<prop key="boolean_format">true,false</prop>
+				<prop key="time_format">HH:mm:ss</prop>
+				<prop key="datetime_format">yyyy-MM-dd HH:mm:ss</prop>
+				<prop key="date_format">yyyy-MM-dd</prop>
+				<prop key="number_format">#.##</prop>
+				<prop key="whitespace_stripping">true</prop>
+			</props>
+		</property>
+	</bean> -->
+
+	<!-- 配置 FreeMarker视图解析器 -->
+	<!-- <bean id="viewResolver"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.freemarker.FreeMarkerView"></property>
+		<property name="cache" value="false" />
+		<property name="prefix" value="" />
+		<property name="suffix" value=".ftl" />可为空,方便实现自已的依据扩展名来选择视图解释类的逻辑
+		<property name="contentType" value="text/html;charset=utf-8" />
+		<property name="exposeRequestAttributes" value="true" />
+		<property name="exposeSessionAttributes" value="true" />
+		<property name="exposeSpringMacroHelpers" value="true" />
+	</bean> -->
+
+	<!-- 定义跳转的文件的前后缀 ，视图模式配置 -->
+	<!-- <bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value=""></property>
+		<property name="suffix" value=".ftl"></property>
+	</bean> -->
+	<!-- freemarker end -->
+
+
+
+	<!-- freemarker的配置 -->
+  <bean id="freemarkerConfig"
+    class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+    <property name="templateLoaderPath" value="/WEB-INF/ftl/" />
+    <property name="defaultEncoding" value="utf-8" />
+    <property name="freemarkerSettings">
+      <props>
+        <prop key="template_update_delay">10</prop>
+        <prop key="locale">zh_CN</prop>
+        <prop key="datetime_format">yyyy-MM-dd</prop><!-- 时间格式化 -->
+        <prop key="date_format">yyyy-MM-dd</prop>
+        <prop key="number_format">#.##</prop>
+      </props>
+    </property>
+  </bean>
+
+  <!-- 视图配置 在list中按照配置的先后顺序 -->
+  <bean
+    class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+    <property name="ignoreAcceptHeader" value="true" />
+    <property name="defaultContentType" value="text/html" />
+    <property name="mediaTypes">
+      <map>
+        <entry key="json" value="application/json" />
+        <entry key="xls" value="application/vnd.ms-excel" />
+        <entry key="xlsx"
+          value="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <entry key="pdf" value="application/pdf" />
+      </map>
+    </property>
+    <property name="favorParameter" value="false" />
+    <property name="viewResolvers">
+      <list>
+        <!-- 配置freeMarker视图解析器 -->
+        <bean
+          class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+          <property name="cache" value="true" />
+          <property name="prefix" value="" /><!-- 上面已经配了，这里就不用配啦 -->
+          <property name="suffix" value=".ftl" />
+          <property name="contentType" value="text/html;charset=UTF-8" />
+          <property name="viewClass"
+            value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" />
+          <property name="allowSessionOverride" value="true" />
+          <property name="allowRequestOverride" value="true" />
+          <property name="exposeSpringMacroHelpers" value="false" />
+          <property name="exposeRequestAttributes" value="true" />
+          <property name="exposeSessionAttributes" value="true" />
+          <property name="requestContextAttribute" value="request" />
+        </bean>
+        <bean
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+          <property name="viewClass"
+            value="org.springframework.web.servlet.view.JstlView" />
+          <property name="prefix" value="/WEB-INF/jsp/" />
+          <property name="suffix" value=".jsp" />
+        </bean>
+      </list>
+    </property>
+  </bean>
